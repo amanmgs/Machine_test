@@ -16,7 +16,7 @@ const HeaderIcon = (props) => {
             style={styles.threeline}
             onPress={onPress}
         >
-            <Icon name={name} color={'#000'} size={20} />
+            <Icon name={name} color={'#000'} size={15} />
         </TouchableOpacity>
     )
 }

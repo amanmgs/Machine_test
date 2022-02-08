@@ -4,37 +4,50 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         width: Dimensions.get('window').width,
+        backgroundColor: '#FFF',
     },
     header: {
-        backgroundColor: '#FFF',
         flexDirection: 'row',
+        justifyContent:'center',
+        borderBottomWidth:1
     },
-    icon: {
+    list: {
         flexDirection: 'row',
-        marginLeft: '25%'
-    },
-    item: {
-        backgroundColor: '#f9c2ff',
-        width: 60,
-        height:60,
-        borderRadius: 50,
-        marginHorizontal:10,
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        borderBottomWidth:1
     },
     title: {
-        fontSize: 10,
-        color:'#000',
-        textAlign:'center',
-        fontWeight:'400'
+        flex: 1,
+        padding: 5,
+        borderBottomColor: '#bbb',
+        fontSize: 14,
+        color:'#000'
     },
-    image: {
-        width: 60,
-        height: 60,
-        borderRadius: 50,
+    inputContainer: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        borderWidth:1
     },
-    salebanner:{
-        width: Dimensions.get('window').width,
-        height: 230,
-        marginVertical:'3%'
+    input: {
+        flex: 1,
+        padding: 5,
+        borderBottomColor: '#bbb',
+        fontSize: 14,
+        marginLeft: 20,
+        color:'#000'
+    },
+    button: {
+        marginRight: 5,
+        fontSize: 14,
+        color: '#fff',
+        textAlign: 'center',
+        fontWeight: '400',
+        backgroundColor:'#fa2a55',
+        paddingHorizontal:10,
+        paddingVertical:5,
+        borderRadius:5
     },
 })
 export default styles;
